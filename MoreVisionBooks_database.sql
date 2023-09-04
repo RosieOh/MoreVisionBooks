@@ -21,11 +21,7 @@ CREATE TABLE member(
 
 -- 관리자 페이지에서 사용자가 특정 인원 판매자 지정 필요
 INSERT INTO member(id, pw, NAME, email, tel, birth, per) VALUES('admin','1234', '관리자', 'admin@shop.com', '010-1004-1004', '1998-01-01', 0);
-INSERT INTO member(id, pw, NAME, email, tel, birth, address, per) VALUES('kimhk','1234', '김현경', 'kimhk@shop.com', '010-1234-5678', '2000-01-01','서울 금천구 디지털로 185<br>2관 11층<br>08511', 1);
-INSERT INTO member(id, pw, NAME, email, tel, birth, address, per) VALUES('kimbk','qwer1234!', '김보경', 'kimbk@shop.com', '010-8765-4321', '2000-01-01','서울 금천구 디지털로 185<br>2관 11층<br>08511', 1);
-INSERT INTO member(id, pw, NAME, email, tel, birth, address, per) VALUES('parkjk','2318358', '박진권', 'park@shop.com', '010-1111-2222', '2000-01-01','서울 금천구 디지털로 185<br>2관 11층<br>08511', 1);
 INSERT INTO member(id, pw, NAME, email, tel, birth, address, per) VALUES('sirious920','xogns1234!', '오태훈', 'dhxogns920@shop.com', '010-7329-7484', '1998-09-20','서울 금천구 디지털로 185<br>2관 11층<br>08511', 1);
-INSERT INTO member(id, pw, NAME, email, tel, birth, address, per) VALUES('shin','asdf1234!', '신예은', 'shin@shop.com', '010-9999-8888', '2000-01-01','서울 금천구 디지털로 185<br>2관 11층<br>08511', 1);
 
 COMMIT;
 
@@ -33,11 +29,7 @@ SELECT * FROM member;
 
 
 UPDATE member SET pw='6lRVDcHqc9ceHafDPXmPbz2r4KRXzN1Bi/k0wAQZFua0seXPMFKXMHY6Ut5PW6anSpaKsA==' WHERE id='admin';
-UPDATE member SET pw='6lRVDcHqc9ceHafDPXmPbz2r4KRXzN1Bi/k0wAQZFua0seXPMFKXMHY6Ut5PW6anSpaKsA==' WHERE id='kimhk';
-UPDATE member SET pw='qK2aVyBfeZfFcZAYbnfIaMVr/yppCwrnlKSMGhy2wRBdm2MFX9KtVTF7WoGPr5PP2EooyQ==' WHERE id='kimbk';
-UPDATE member SET pw='ayDlB61VvnK8CHscf/moQNTbqywdHHf1hT/G8SgChm40NB2Se86VKKg2fibN8MYuIN5XHg==' WHERE id='parkjk';
 UPDATE member SET pw='y77ZcnJueDxVMDDVzGMQTBq3ti0m0w3jEBRA9Ib901OMXn+gqj5W/XEzTfJJqEFVWn7PKw==' WHERE id='sirious920';
-UPDATE member SET pw='hmQ6nKUBYdXpLQGoN05drYLHeg3XF+wdBGad1DFuDI64MMRM/8bYIP/lzjgcjqL3vRRtDA==' WHERE id='shin';
 
 --------------------------------------------------------------
 
@@ -87,25 +79,25 @@ CREATE TABLE board(
 );
 
 -- 공지사항 더미글 추가 10건
-INSERT INTO board(title, content, author) VALUES ('게시판1', '여기는 게시판1입니다', 'oh');
+INSERT INTO board(title, content, author) VALUES ('게시판1', '여기는 게시판1입니다', 'sirious920');
 
-INSERT INTO board(title, content, author) VALUES ('게시판2', '여기는 게시판2입니다', 'shin');
+INSERT INTO board(title, content, author) VALUES ('게시판2', '여기는 게시판2입니다', 'sirious920');
 
-INSERT INTO board(title, content, author) VALUES ('게시판3', '여기는 게시판3입니다', 'park');
+INSERT INTO board(title, content, author) VALUES ('게시판3', '여기는 게시판3입니다', 'sirious920');
 
-INSERT INTO board(title, content, author) VALUES ('게시판4', '여기는 게시판4입니다', 'kimhk');
+INSERT INTO board(title, content, author) VALUES ('게시판4', '여기는 게시판4입니다', 'sirious920');
 
-INSERT INTO board(title, content, author) VALUES ('게시판5', '여기는 게시판5입니다', 'kimbk');
+INSERT INTO board(title, content, author) VALUES ('게시판5', '여기는 게시판5입니다', 'sirious920');
 
-INSERT INTO board(title, content, author) VALUES ('게시판6', '여기는 게시판6입니다', 'oh');
+INSERT INTO board(title, content, author) VALUES ('게시판6', '여기는 게시판6입니다', 'sirious920');
 
-INSERT INTO board(title, content, author) VALUES ('게시판7', '여기는 게시판7입니다', 'shin');
+INSERT INTO board(title, content, author) VALUES ('게시판7', '여기는 게시판7입니다', 'sirious920');
 
-INSERT INTO board(title, content, author) VALUES ('게시판8', '여기는 게시판8입니다', 'park');
+INSERT INTO board(title, content, author) VALUES ('게시판8', '여기는 게시판8입니다', 'sirious920');
 
-INSERT INTO board(title, content, author) VALUES ('게시판9', '여기는 게시판9입니다 ', 'kimbk');
+INSERT INTO board(title, content, author) VALUES ('게시판9', '여기는 게시판9입니다 ', 'sirious920');
 
-INSERT INTO board(title, content, author) VALUES ('게시판10', '여기는 게시판10입니다', 'kimhk');
+INSERT INTO board(title, content, author) VALUES ('게시판10', '여기는 게시판10입니다', 'sirious920');
 
 COMMIT;
 
@@ -129,23 +121,23 @@ SELECT * FROM askboard;
 -- 고객 전용 문의 테이블 더미글 추가 10건
 INSERT INTO askboard(title, content, author) VALUES ('문의1', '문의1 입니다', 'sirious920');
 
-INSERT INTO askboard(title, content, author) VALUES ('문의2', '문의2 입니다', 'shin');
+INSERT INTO askboard(title, content, author) VALUES ('문의2', '문의2 입니다', 'sirious920');
 
-INSERT INTO askboard(title, content, author) VALUES ('문의3', '문의3 입니다', 'parkjk');
+INSERT INTO askboard(title, content, author) VALUES ('문의3', '문의3 입니다', 'sirious920');
 
-INSERT INTO askboard(title, content, author) VALUES ('문의4', '문의4 입니다', 'kimhk');
+INSERT INTO askboard(title, content, author) VALUES ('문의4', '문의4 입니다', 'sirious920');
 
-INSERT INTO askboard(title, content, author) VALUES ('문의5', '문의5 입니다', 'kimbk');
+INSERT INTO askboard(title, content, author) VALUES ('문의5', '문의5 입니다', 'sirious920');
 
 INSERT INTO askboard(title, content, author) VALUES ('문의6', '문의6 입니다', 'sirious920');
 
-INSERT INTO askboard(title, content, author) VALUES ('문의7', '문의7 입니다', 'shin');
+INSERT INTO askboard(title, content, author) VALUES ('문의7', '문의7 입니다', 'sirious920');
 
-INSERT INTO askboard(title, content, author) VALUES ('문의8', '문의8 입니다', 'parkjk');
+INSERT INTO askboard(title, content, author) VALUES ('문의8', '문의8 입니다', 'sirious920');
 
-INSERT INTO askboard(title, content, author) VALUES ('문의9', '문의9 입니다', 'kimhk');
+INSERT INTO askboard(title, content, author) VALUES ('문의9', '문의9 입니다', 'sirious920');
 
-INSERT INTO askboard(title, content, author) VALUES ('문의10', '문의10 입니다', 'kimbk');
+INSERT INTO askboard(title, content, author) VALUES ('문의10', '문의10 입니다', 'sirious920');
 
 COMMIT;
 
@@ -168,23 +160,23 @@ CREATE TABLE qna(
 );
 
 -- 더미 데이터 작성
-INSERT INTO qna(title, content, author, lev, secret) VALUES('질문1', '질문입니다. 1', 'kimbk', 0, false);
+INSERT INTO qna(title, content, author, lev, secret) VALUES('질문1', '질문입니다. 1', 'sirious920', 0, false);
 
 UPDATE qna SET par=qno WHERE lev=0 AND qno=1;
 
-INSERT INTO qna(title, content, author, lev, secret) VALUES('질문2', '질문입니다. 2', 'parkjk', 0, true);
+INSERT INTO qna(title, content, author, lev, secret) VALUES('질문2', '질문입니다. 2', 'sirious920', 0, true);
 
 UPDATE qna SET par=qno WHERE lev=0 AND qno=2;
 
-INSERT INTO qna(title, content, author, lev, secret) VALUES('질문3', '질문입니다. 3', 'kimhk', 0, false);
+INSERT INTO qna(title, content, author, lev, secret) VALUES('질문3', '질문입니다. 3', 'sirious920', 0, false);
 
 UPDATE qna SET par=qno WHERE lev=0 AND qno=3;
 
-INSERT INTO qna(title, content, author, lev, secret) VALUES('질문4', '질문입니다. 4', 'parkjk', 0, false);
+INSERT INTO qna(title, content, author, lev, secret) VALUES('질문4', '질문입니다. 4', 'sirious920', 0, false);
 
 UPDATE qna SET par=qno WHERE lev=0 AND qno=4;
 
-INSERT INTO qna(title, content, author, lev, secret) VALUES('질문5', '질문입니다. 5', 'kimbk', 0, false);
+INSERT INTO qna(title, content, author, lev, secret) VALUES('질문5', '질문입니다. 5', 'sirious920', 0, false);
 
 UPDATE qna SET par=qno WHERE lev=0 AND qno=5;
 
@@ -192,19 +184,19 @@ INSERT INTO qna(title, content, author, lev, secret) VALUES('질문6', '질문�
 
 UPDATE qna SET par=qno WHERE lev=0 AND qno=6;
 
-INSERT INTO qna(title, content, author, lev, secret) VALUES('질문7', '질문입니다. 7', 'shin', 0, false);
+INSERT INTO qna(title, content, author, lev, secret) VALUES('질문7', '질문입니다. 7', 'sirious920', 0, false);
 
 UPDATE qna SET par=qno WHERE lev=0 AND qno=7;
 
-INSERT INTO qna(title, content, author, lev, secret) VALUES('질문8', '질문입니다. 8', 'shin', 0, false);
+INSERT INTO qna(title, content, author, lev, secret) VALUES('질문8', '질문입니다. 8', 'sirious920', 0, false);
 
 UPDATE qna SET par=qno WHERE lev=0 AND qno=8;
 
-INSERT INTO qna(title, content, author, lev, secret) VALUES('질문9', '질문입니다. 9', 'parkjk', 0, false);
+INSERT INTO qna(title, content, author, lev, secret) VALUES('질문9', '질문입니다. 9', 'sirious920', 0, false);
 
 UPDATE qna SET par=qno WHERE lev=0 AND qno=9;
 
-INSERT INTO qna(title, content, author, lev, secret) VALUES('질문10', '질문입니다. 10', 'kimbk', 0, false);
+INSERT INTO qna(title, content, author, lev, secret) VALUES('질문10', '질문입니다. 10', 'sirious920', 0, false);
 
 UPDATE qna SET par=qno WHERE lev=0 AND qno=10;
 
@@ -295,16 +287,16 @@ create table askComment(
 );
 
 -- 더미 데이터 추가
-INSERT INTO askComment(bno, author, content) VALUES(1, 'admin', '댓글 기능 더미데이터1');
-INSERT INTO askComment(bno, author, content) VALUES(2, 'admin', '댓글 기능 더미데이터2');
-INSERT INTO askComment(bno, author, content) VALUES(3, 'shin', '댓글 기능 더미데이터3');
-INSERT INTO askComment(bno, author, content) VALUES(4, 'park', '댓글 기능 더미데이터3');
-INSERT INTO askComment(bno, author, content) VALUES(5, 'oh', '댓글 기능 더미데이터3');
-INSERT INTO askComment(bno, author, content) VALUES(6, 'shin', '댓글 기능 더미데이터3');
-INSERT INTO askComment(bno, author, content) VALUES(7, 'park', '댓글 기능 더미데이터3');
-INSERT INTO askComment(bno, author, content) VALUES(8, 'oh', '댓글 기능 더미데이터3');
-INSERT INTO askComment(bno, author, content) VALUES(1, 'shin', '댓글 기능 더미데이터3');
-INSERT INTO askComment(bno, author, content) VALUES(1, 'park', '댓글 기능 더미데이터3');
+INSERT INTO askComment(bno, author, content) VALUES(1, 'sirious920', '댓글 기능 더미데이터1');
+INSERT INTO askComment(bno, author, content) VALUES(2, 'sirious920', '댓글 기능 더미데이터2');
+INSERT INTO askComment(bno, author, content) VALUES(3, 'sirious920', '댓글 기능 더미데이터3');
+INSERT INTO askComment(bno, author, content) VALUES(4, 'sirious920', '댓글 기능 더미데이터3');
+INSERT INTO askComment(bno, author, content) VALUES(5, 'sirious920', '댓글 기능 더미데이터3');
+INSERT INTO askComment(bno, author, content) VALUES(6, 'sirious920', '댓글 기능 더미데이터3');
+INSERT INTO askComment(bno, author, content) VALUES(7, 'sirious920', '댓글 기능 더미데이터3');
+INSERT INTO askComment(bno, author, content) VALUES(8, 'sirious920', '댓글 기능 더미데이터3');
+INSERT INTO askComment(bno, author, content) VALUES(1, 'sirious920', '댓글 기능 더미데이터3');
+INSERT INTO askComment(bno, author, content) VALUES(1, 'sirious920', '댓글 기능 더미데이터3');
 
 COMMIT;
 
