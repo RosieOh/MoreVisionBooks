@@ -34,12 +34,6 @@
 <%@include file="/Main_contents/main_banner.jsp"%>
 <!-- Hero Section End -->
 
-<!-- Categories Section Begin -->
-<%@ include file="/Main_contents/category.jsp"%>
-<!-- Categories Section End -->
-
-
-
 <!-- Featured Section Begin -->
 <%@ include file="/Main_contents/feature_Product.jsp"%>
 <!-- Featured Section End -->
@@ -47,10 +41,6 @@
 <!-- Banner Begin -->
 <%@include file="/Main_contents/banner.jsp"%>
 <!-- Banner End -->
-
-<!-- Latest Product Section Begin -->
-<%--<%@include file="/Main_contents/LatestProduct.jsp"%>--%>
-<!-- Latest Product Section End -->
 
 <!-- Blog Section Begin -->
 <%@include file="/Main_contents/Blog_review.jsp"%>

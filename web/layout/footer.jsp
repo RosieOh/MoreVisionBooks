@@ -22,27 +22,27 @@
                     <h6>Useful Links</h6>
                     <ul>
                         <li><a href="#">About Us</a></li>
-                        <li><a href="#">유아콘텐츠</a></li>
-                        <li><a href="#">유아놀이</a></li>
-                        <li><a href="#">유아기타</a></li>
+                        <li><a href="${path}/CateProList.do?cate_id=Q">유아콘텐츠</a></li>
+                        <li><a href="${path}/CateProList.do?cate_id=R">유아놀이</a></li>
+                        <li><a href="${path}/CateProList.do?cate_id=S">유아기타</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#">중등교과서</a></li>
-                        <li><a href="#">중등참고서</a></li>
-                        <li><a href="#">중등문제집</a></li>
-                        <li><a href="#">중등기타</a></li>
+                        <li><a href="${path}/CateProList.do?cate_id=E">중등교과서</a></li>
+                        <li><a href="${path}/CateProList.do?cate_id=F">중등참고서</a></li>
+                        <li><a href="${path}/CateProList.do?cate_id=G">중등문제집</a></li>
+                        <li><a href="${path}/CateProList.do?cate_id=H">중등기타</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#">초등교과서</a></li>
-                        <li><a href="#">초등참고서</a></li>
-                        <li><a href="#">초등문제집</a></li>
-                        <li><a href="#">초등기타</a></li>
+                        <li><a href="${path}/CateProList.do?cate_id=A">초등교과서</a></li>
+                        <li><a href="${path}/CateProList.do?cate_id=B">초등참고서</a></li>
+                        <li><a href="${path}/CateProList.do?cate_id=C">초등문제집</a></li>
+                        <li><a href="${path}/CateProList.do?cate_id=D">초등기타</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#">고등교과서</a></li>
-                        <li><a href="#">고등참고서</a></li>
-                        <li><a href="#">고등문제집</a></li>
-                        <li><a href="#">고등기타</a></li>
+                        <li><a href="${path}/CateProList.do?cate_id=I">고등교과서</a></li>
+                        <li><a href="${path}/CateProList.do?cate_id=J">고등참고서</a></li>
+                        <li><a href="${path}/CateProList.do?cate_id=K">고등문제집</a></li>
+                        <li><a href="${path}/CateProList.do?cate_id=L">고등기타</a></li>
                     </ul>
                 </div>
             </div>
