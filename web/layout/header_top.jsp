@@ -5,7 +5,7 @@
 <div class="humberger__menu__overlay"></div>
 <div class="humberger__menu__wrapper">
     <div class="humberger__menu__logo">
-        <a href="#"><img src="${path}/img/logo.png" alt=""></a>
+        <a href="#"><img src="${path}/img/logo/logo_1.png" alt=""></a>
     </div>
     <div class="humberger__menu__cart">
         <ul>

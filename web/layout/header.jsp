@@ -33,7 +33,7 @@
         <div class="row">
             <div class="col-lg-3">
                 <div class="header__logo">
-                    <a href="${path}/"><img src="${path}/img/logo/corn_book_85-55.png" alt=""></a>
+                    <a href="${path}/"><img src="${path}/img/logo/logo_1.png" alt="" style="width: 100px; height: 80px;"></a>
                 </div>
             </div>
             <div class="col-lg-6">

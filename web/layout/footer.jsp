@@ -8,7 +8,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="footer__about">
                     <div class="footer__about__logo">
-                        <a href="${path}/"><img src="${path}/img/logo/corn_book_85-55.png" alt=""></a>
+                        <a href="${path}/"><img src="${path}/img/logo/logo_1.png" alt=""></a>
                     </div>
                     <ul>
                         <li><b>Address</b>: 서울특별시 금천구 가산동,<br/> 마리오아울렛 2관 11층 천재교육</li>

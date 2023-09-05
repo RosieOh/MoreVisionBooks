@@ -38,10 +38,6 @@
 <%@ include file="/Main_contents/feature_Product.jsp"%>
 <!-- Featured Section End -->
 
-<!-- Banner Begin -->
-<%@include file="/Main_contents/banner.jsp"%>
-<!-- Banner End -->
-
 <!-- Blog Section Begin -->
 <%@include file="/Main_contents/Blog_review.jsp"%>
 <!-- Blog Section End -->
